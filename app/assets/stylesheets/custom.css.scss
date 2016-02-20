@@ -30,3 +30,43 @@ $navbar-default-bg: #711;
 .center {
   text-align: center;
 }
+
+.jumbotron {
+  background-image: asset-url('DSC_1617.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  text-shadow: 0 0 4px #fff;
+}
+
+.jumbotron h1 a {
+  text-shadow: 0 0 0;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
